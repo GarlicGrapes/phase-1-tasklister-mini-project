@@ -17,22 +17,22 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#tasks").appendChild(p)
     console.log(p)
   }
+// handle delete button
+  function handleDelete(e){
+    e.target.parentNode.remove()
+  }
 
+//grab x buttons
+  function addEventListenerToDeleteButtons() {
+    let button = document.getElementsByClassName('delete_btn')
+      for (let btn of buttons) {
+     btn.addEventListener('click', )
+}
+
+}
 
 });
 //
 //document.querySelector('form').addEventListener('', )
 
-
-// handle delete button
-function handleDelete(e){
-    e.target.parentNode.remove()
-}
-
-//grab x buttons
-function addEventListenerToDeleteButtons() {
-  let button = document.getElementsByClassName('delete_btn')
-  for (let btn of buttons) {
-      btn.addEventListener('click', )
-  }
-}
+//
